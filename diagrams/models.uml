@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>/var/www/html/student_rate/backend/models</OriginalElement>
+  <nodes>
+    <node x="1365.4328947368422" y="5731.0">\backend\models\Speciality</node>
+    <node x="1168.75" y="1611.5">\yii\db\ActiveRecordInterface</node>
+    <node x="856.9328947368422" y="5743.5">\backend\models\Specialization</node>
+    <node x="1090.4328947368422" y="5423.0">\common\models\Group</node>
+    <node x="749.0" y="790.5">\IteratorAggregate</node>
+    <node x="1103.9328947368422" y="5731.0">\backend\models\Group</node>
+    <node x="931.0" y="753.0">\ArrayAccess</node>
+    <node x="1326.4328947368422" y="5435.5">\common\models\Speciality</node>
+    <node x="490.4328947368422" y="5398.0">\common\models\Student</node>
+    <node x="773.4328947368422" y="5435.5">\common\models\Specialization</node>
+    <node x="571.4328947368422" y="5743.5">\backend\models\Student</node>
+    <node x="0.0" y="765.5">\yii\base\Arrayable</node>
+    <node x="653.0" y="1223.0">\yii\base\Model</node>
+    <node x="312.0" y="465.0">\yii\base\Component</node>
+    <node x="837.413157894737" y="2682.0">\yii\db\BaseActiveRecord</node>
+    <node x="371.0" y="82.0">\yii\base\BaseObject</node>
+    <node x="847.413157894737" y="4866.0">\yii\mongodb\ActiveRecord</node>
+    <node x="458.5" y="0.0">\yii\base\Configurable</node>
+    <node x="1189.0" y="790.5">\yii\base\StaticInstanceInterface</node>
+    <node x="1638.4328947368422" y="0.0">/var/www/html/student_rate/backend/models/search</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\yii\db\BaseActiveRecord" target="\yii\db\ActiveRecordInterface">
+      <point x="104.25" y="-1067.0" />
+      <point x="1150.163157894737" y="2657.0" />
+      <point x="1335.25" y="2657.0" />
+      <point x="0.0" y="316.0" />
+    </edge>
+    <edge source="\backend\models\Group" target="\common\models\Group">
+      <point x="0.0" y="-41.0" />
+      <point x="0.0" y="116.5" />
+    </edge>
+    <edge source="\common\models\Specialization" target="\yii\mongodb\ActiveRecord">
+      <point x="0.0" y="-104.0" />
+      <point x="921.9328947368422" y="5378.0" />
+      <point x="996.288157894737" y="5378.0" />
+      <point x="-49.625" y="241.0" />
+    </edge>
+    <edge source="\backend\models\Specialization" target="\common\models\Specialization">
+      <point x="0.0" y="-28.5" />
+      <point x="0.0" y="104.0" />
+    </edge>
+    <edge source="\yii\base\Model" target="\yii\base\Component">
+      <point x="-70.80000000000007" y="-704.5" />
+      <point x="759.1999999999999" y="1193.0" />
+      <point x="520.5" y="1193.0" />
+      <point x="0.0" y="354.0" />
+    </edge>
+    <edge source="\backend\models\Speciality" target="\common\models\Speciality">
+      <point x="0.0" y="-41.0" />
+      <point x="0.0" y="104.0" />
+    </edge>
+    <edge source="\common\models\Student" target="\yii\mongodb\ActiveRecord">
+      <point x="-5.6843418860808015E-14" y="-141.5" />
+      <point x="621.9328947368422" y="5378.0" />
+      <point x="897.038157894737" y="5378.0" />
+      <point x="-148.875" y="241.0" />
+    </edge>
+    <edge source="\common\models\Group" target="\yii\mongodb\ActiveRecord">
+      <point x="0.0" y="-116.5" />
+      <point x="1198.4328947368422" y="5378.0" />
+      <point x="1095.538157894737" y="5378.0" />
+      <point x="49.625" y="241.0" />
+    </edge>
+    <edge source="\yii\base\Model" target="\yii\base\StaticInstanceInterface">
+      <point x="141.60000000000002" y="-704.5" />
+      <point x="971.6" y="1203.0" />
+      <point x="1237.75" y="1203.0" />
+      <point x="-48.75" y="28.5" />
+    </edge>
+    <edge source="\backend\models\Student" target="\common\models\Student">
+      <point x="0.0" y="-28.5" />
+      <point x="0.0" y="141.5" />
+    </edge>
+    <edge source="\yii\base\Model" target="\yii\base\Arrayable">
+      <point x="-141.60000000000002" y="-704.5" />
+      <point x="688.4" y="1203.0" />
+      <point x="146.0" y="1203.0" />
+      <point x="0.0" y="53.5" />
+    </edge>
+    <edge source="\yii\base\BaseObject" target="\yii\base\Configurable">
+      <point x="0.0" y="-166.5" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="\yii\base\Model" target="\ArrayAccess">
+      <point x="70.79999999999995" y="-704.5" />
+      <point x="900.8" y="1193.0" />
+      <point x="1050.0" y="1193.0" />
+      <point x="0.0" y="66.0" />
+    </edge>
+    <edge source="\yii\base\Component" target="\yii\base\BaseObject">
+      <point x="0.0" y="-354.0" />
+      <point x="0.0" y="166.5" />
+    </edge>
+    <edge source="\yii\db\ActiveRecordInterface" target="\yii\base\StaticInstanceInterface">
+      <point x="0.0" y="-316.0" />
+      <point x="48.75" y="28.5" />
+    </edge>
+    <edge source="\yii\mongodb\ActiveRecord" target="\yii\db\BaseActiveRecord">
+      <point x="0.0" y="-241.0" />
+      <point x="0.0" y="1067.0" />
+    </edge>
+    <edge source="\yii\base\Model" target="\IteratorAggregate">
+      <point x="0.0" y="-704.5" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="\common\models\Speciality" target="\yii\mongodb\ActiveRecord">
+      <point x="0.0" y="-104.0" />
+      <point x="1459.9328947368422" y="5368.0" />
+      <point x="1194.788157894737" y="5368.0" />
+      <point x="148.875" y="241.0" />
+    </edge>
+    <edge source="\yii\db\BaseActiveRecord" target="\yii\base\Model">
+      <point x="-104.25" y="-1067.0" />
+      <point x="941.663157894737" y="2657.0" />
+      <point x="830.0" y="2657.0" />
+      <point x="0.0" y="704.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9" x="824.4444444444445" y="5364.888888888889" />
+  <SelectedNodes>
+    <node>\yii\mongodb\ActiveRecord</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constants</Category>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

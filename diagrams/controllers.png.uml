@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>/var/www/html/student_rate/backend/controllers</OriginalElement>
+  <nodes>
+    <node x="404.0" y="1223.0">\yii\base\Controller</node>
+    <node x="506.5" y="465.0">\yii\base\Component</node>
+    <node x="0.0" y="2528.5">\backend\controllers\StudentController</node>
+    <node x="653.0" y="2528.5">\backend\controllers\GroupController</node>
+    <node x="565.5" y="82.0">\yii\base\BaseObject</node>
+    <node x="653.0" y="0.0">\yii\base\Configurable</node>
+    <node x="474.0" y="2541.0">\backend\controllers\SiteController</node>
+    <node x="404.0" y="2158.0">\yii\web\Controller</node>
+    <node x="237.0" y="2516.0">\backend\controllers\SpecializationController</node>
+    <node x="297.5" y="790.5">\yii\base\ViewContextInterface</node>
+    <node x="890.0" y="2516.0">\backend\controllers\SpecialityController</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\backend\controllers\GroupController" target="\yii\web\Controller">
+      <point x="0.0" y="-78.5" />
+      <point x="761.5" y="2496.0" />
+      <point x="613.3000000000001" y="2496.0" />
+      <point x="59.80000000000007" y="154.0" />
+    </edge>
+    <edge source="\yii\base\BaseObject" target="\yii\base\Configurable">
+      <point x="0.0" y="-166.5" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="\yii\base\Component" target="\yii\base\BaseObject">
+      <point x="0.0" y="-354.0" />
+      <point x="0.0" y="166.5" />
+    </edge>
+    <edge source="\yii\base\Controller" target="\yii\base\Component">
+      <point x="74.75" y="-442.5" />
+      <point x="628.25" y="1198.0" />
+      <point x="715.0" y="1198.0" />
+      <point x="0.0" y="354.0" />
+    </edge>
+    <edge source="\backend\controllers\SiteController" target="\yii\web\Controller">
+      <point x="0.0" y="-66.0" />
+      <point x="0.0" y="154.0" />
+    </edge>
+    <edge source="\backend\controllers\SpecializationController" target="\yii\web\Controller">
+      <point x="0.0" y="-91.0" />
+      <point x="345.5" y="2496.0" />
+      <point x="493.70000000000005" y="2496.0" />
+      <point x="-59.799999999999955" y="154.0" />
+    </edge>
+    <edge source="\yii\web\Controller" target="\yii\base\Controller">
+      <point x="0.0" y="-154.0" />
+      <point x="0.0" y="442.5" />
+    </edge>
+    <edge source="\backend\controllers\StudentController" target="\yii\web\Controller">
+      <point x="0.0" y="-78.5" />
+      <point x="108.5" y="2486.0" />
+      <point x="433.9" y="2486.0" />
+      <point x="-119.60000000000002" y="154.0" />
+    </edge>
+    <edge source="\yii\base\Controller" target="\yii\base\ViewContextInterface">
+      <point x="-74.75" y="-442.5" />
+      <point x="478.75" y="1198.0" />
+      <point x="392.0" y="1198.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="\backend\controllers\SpecialityController" target="\yii\web\Controller">
+      <point x="0.0" y="-91.0" />
+      <point x="998.5" y="2486.0" />
+      <point x="673.1" y="2486.0" />
+      <point x="119.60000000000002" y="154.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="448.0" y="416.0" />
+  <SelectedNodes>
+    <node>\backend\controllers\SpecialityController</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

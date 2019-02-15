@@ -1,0 +1,17 @@
+{
+  "name": "student_rate",
+  "version": "1.0.0",
+  "description": "Student rate site",
+  "main": "index.php",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/shielded-escarpment-79201.git"
+  },
+  "author": "DivinePoseidon",
+  "license": "ISC"
+}
